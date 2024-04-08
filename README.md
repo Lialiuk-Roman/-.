@@ -40,7 +40,7 @@ class CreditCardValidatorApp:
             self.result_label.config(text="Цей номер кредитної картки є дійсним.")
         else:
             self.result_label.config(text="Цей номер кредитної картки є недійсним.")
-
-root = tk.Tk()
-app = CreditCardValidatorApp(root)
-root.mainloop()
+            
+            root = tk.Tk()
+            app = CreditCardValidatorApp(root)
+            root.mainloop()

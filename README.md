@@ -1,10 +1,10 @@
-import tkinter as tk
+    import tkinter as tk
 
-class CreditCardValidatorApp:
-    def __init__(self, master):
-        self.master = master
-        master.title("Перевірка номера кредитної картки")
-        master.geometry("700x100")
+    class CreditCardValidatorApp:
+        def __init__(self, master):
+            self.master = master
+            master.title("Перевірка номера кредитної картки")
+            master.geometry("700x100")
 
         self.entry = tk.Entry(master, width=20)
         self.entry.pack(pady=5)
